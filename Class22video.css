@@ -1,0 +1,313 @@
+/* default */
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+
+}
+li{
+    list-style: none;
+}
+.w-60{
+    width: 60%;
+    margin: auto;
+}
+.bg-main{
+    background-color: #f7f9ff;
+}
+.w-90{
+    width: 90%;
+    margin: auto;
+}
+.w-80{
+    width: 80%;
+    margin: auto;
+}
+.w-15{
+    width: 19%;
+}
+/* header section */
+header img{
+   width: 50px;
+}
+.navbar h3:hover{
+    color: rgba(1, 1, 1, .5);
+}
+.navbar ul li a{
+    color: black;
+    font-weight: 400;
+}
+.navbar .btn{
+    border: 2px solid #6278df;
+    color: #6278df;
+    font-weight: 500;
+    padding: 7px 25px;
+    font-size: 18px;
+}
+.navbar .btn:hover {
+    background-color: #6278df;
+    color: #fff;
+    box-shadow: -1px -1px 9px 4px rgb(98 120 223 / 26%);
+}
+
+/* banner-section */
+.banner-section{
+    background: url(https://i.ibb.co/MfMdrLV/class-22-16.jpg) no-repeat center;
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner-section::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.507);
+    z-index: -1;
+}
+.banner-section button {
+    background-color: #5ba533;
+    padding: 13px 77px;
+    margin-left: 18px;
+    font-size: 21px;
+    color: #fff;
+    font-weight: 500;
+    border: 2px solid #5ba533;
+}
+.banner-section input{
+    padding: 13px 5px;
+    border: 1px solid #5ba533;
+   
+}
+.banner-section input:focus{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(98, 120, 223, .7);
+}
+.banner-section button:hover{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(98, 120, 223, .7);
+    color: #6278df;
+    background-color: #ffff;
+    border: 2px solid #6278df;
+}
+.banner-section p {
+    font-size: 27px;
+    margin-bottom: 33px;
+}
+.banner-section h2 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 48px;
+}
+
+/* feature-section */
+.feature-section{
+    padding: 70px 0;
+}
+.feature-section h1 {
+    font-weight: 500;
+}
+.feature-section p {
+    font-size: 22px;
+}
+
+/* activity-section */
+.activity-section{}
+.activity-section h1 {
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+}
+.activity-section p {
+    font-size: 21px;
+}
+.activity-section .a-content{
+    margin-top: 120px;
+}
+
+.activity-section img {
+    width: 377px;
+}
+
+/* about seciton */
+.about-section{
+    padding-top: 80px;
+}
+.about-items{
+    height: 270px;
+    width: 100%;
+    background: #fff;
+    
+}
+.a-image{
+    height: 270px;
+    overflow: hidden;
+    width: 100%;
+    
+}
+.about-section h4 {
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 14px;
+}
+.about-section p{}
+.a-image img{
+    max-width: inherit;
+    position: relative;
+    left: -100px;
+}
+.border-box{
+    box-sizing: border-box;
+}
+
+/* portfolio section */
+.portfolio-section{
+
+}
+.portfolio-section .p-items{
+  position: relative;  
+}
+.portfolio-section .p-items::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(98, 120, 223, .7444);
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.portfolio-section .p-items:hover::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* product section */
+
+.product-section{}
+.product-section span{
+    font-size: 22px;
+    color: gray;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.product-section i{
+    color: #6278df;
+    font-size: 30px;
+    width: 30px;
+}
+.product-btn a {
+    padding: 11px 75px;
+    color: #6278df;
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 25px;
+    box-shadow: 2.5px 4.33px 15px 0 rgba(40, 43, 56, 0.5);
+    transition: .4s;
+}
+.product-btn a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* feedback section */
+.feedback-section img{
+    width: 70px;
+    border-radius: 50%;
+}
+.feedback-section h1{
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.feedback-section i{
+    font-size: 80px;
+    color: #f0f0f0;
+}
+
+/* teem section */
+.teem-items{
+    box-sizing: border-box;
+    position: relative;
+}
+.teem-sec{
+    padding-top: 120px;
+}
+.teem-items img {
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 18px;
+    top: -69px;
+}
+.teem-img{
+    padding-bottom: 30px;
+}
+
+/* contact section */
+.contact-btn a {
+    border: 2px solid #6278df;
+    background-color: #6278df;
+    color: #ffff;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 10px 22px;
+    margin-bottom: 30px;
+    transition: .3s;
+}
+.contact-btn a:hover{
+    background-color: #fff;
+    color: #6278df;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(98, 120, 223, .7);
+    border: 2px solid #6278df;
+    
+}
+.contact-section input:focus{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(98, 120, 223, .7);
+}
+.contact-section textarea:focus{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(98, 120, 223, .8) !important;
+}
+
+/* app section */
+.app-section{}
+.app-section a {
+    border: 2px solid #5ba533;
+    color: #5ba533;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 12px 22px;
+    margin-right: 13px;
+    border-radius: 8px;
+}
+.app-section .btn-2{
+    background: #5ba533;
+    color: #fff;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(91, 165, 51, .9);
+}
+.app-section .btn-2:hover{
+    background: #000;
+    border: 2px solid #000;
+    box-shadow: inherit;
+    
+}
+.app-section .btn-1:hover{
+    background: #5ba533;
+    color: #fff;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(91, 165, 51, .9);
+}
+
+/* footer */
+footer{
+    background: #f7f9ff;
+    padding: 30px 0;
+}
+footer p{
+    margin-bottom: 0;
+}
